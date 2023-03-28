@@ -1,0 +1,11 @@
+framework module radomGeneratorFramework {
+  umbrella header "radomGeneratorFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module radomGeneratorFramework.Swift {
+  header "radomGeneratorFramework-Swift.h"
+  requires objc
+}
